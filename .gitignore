@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Generated files dependencies
+snaps/
+out/
+tmp/
+
+# Development files
+index-2.js
