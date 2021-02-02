@@ -1,0 +1,30 @@
+{
+  "name": "bank-scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper for latest transactions on Banco Santander. Introductory Excercise by Benjamin Dominguez.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "santander": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Dominguez/Bank-Scrapper.git"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "Benjamin Dominguez Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Dominguez/Bank-Scrapper/issues"
+  },
+  "homepage": "https://github.com/B-Dominguez/Bank-Scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^5.5.0",
+    "puppeteer-extra": "^3.1.16",
+    "puppeteer-extra-plugin-stealth": "^2.6.7",
+    "puppeteer-page-proxy": "^1.2.8"
+  }
+}
