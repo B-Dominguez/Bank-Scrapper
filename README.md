@@ -1,5 +1,5 @@
 # Bank-Scrapper
-Scrapper for latest transactions on Banco Santander. This is simply an introductory excersice to understand  scrappers.
+Scrapper for latest transactions on Banco Santander. This is simply an introductory excercise to understand  scrappers.
 
 ### Description
 Scraps latest transactions data to given output json file, using Chromium on Headless Mode. Must give DNI (rut), Bank's web password and desired output file for json scrapped data. More info on package.json 
